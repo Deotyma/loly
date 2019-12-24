@@ -5,7 +5,7 @@
     <div class="row">
         
         <div class="col-sm-6 float-left">
-            <img src="../assets/images/couple1.jpg" class="img-fluid rounded mt-5 slide-in-right grayscale perso_shadow" alt="Responsive image">
+            <img src="../assets/images/couple2.jpg" class="img-fluid rounded mt-5 slide-in-right grayscale perso_shadow" alt="Responsive image">
         </div>
         
         <div class="col-sm-6 float-right perso_text mt-4 p-4 float-sm-none" >
