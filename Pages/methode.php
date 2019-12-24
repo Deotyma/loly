@@ -1,57 +1,48 @@
 <?php include("../Pages/Commons/header.php")?>
 
-<div class="card-group">
-  <div class="card">
-    <img src="../assets/images/couple4.jpg" class="card-img-top grayscale" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+  <div class="carousel-inner  p-4 mt-4">
+    <div class="carousel-item active">
+      <img src="../assets/images/pomme1.jpg" class="img-fluid rounded mx-auto d-block grayscale perso_shadow" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+          <h2 class="perso_text">méthode</h2>
+          <button type="button" class="btn btn-secondary perso_color_dark">Secondary</button>
+
+      </div>
     </div>
-  </div>
-  <div class="card">
-    <img src="../assets/images/couple3.jpg"" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="carousel-item">
+      <img src="../assets/images/couple1.jpg" class="img-fluid rounded mx-auto d-block grayscale perso_shadow" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      <h2 class="perso_text">méthode</h2>
+      <button type="button" class="btn btn-secondary perso_color_dark">Secondary</button>
+
+      </div>
     </div>
-  </div>
-  <div class="card">
-    <img src="../assets/images/couple1.jpg"" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="carousel-item">
+      <img src="../assets/images/couple4.jpg" class="img-fluid rounded mx-auto d-block grayscale perso_shadow" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      <h2 class="perso_text">méthode</h2>
+      <button type="button" class="btn btn-secondary perso_color_dark">Secondary</button>
+      
+      </div>
     </div>
+    <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-<br>
-<div class="card-group">
-  <div class="card">
-    <img src="../assets/images/couple2.jpg"" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../assets/images/couple2.jpg"" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../assets/images/couple2.jpg"" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-</div>
+
+
 
 <?php include("../Pages/Commons/footer.php")?>
